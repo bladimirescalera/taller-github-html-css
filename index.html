@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Pagina Web</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            color: blue;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: blueviolet;
+            float: left;
+        }
+        .menu{
+            width: 100%;
+            height: 50px;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        aside{
+            width: 20%;
+            height: 500px;
+            background-color: burlywood;
+        }
+        #principal{
+            width: 50%;
+            background-color: beige;
+            float: left;
+        }
+        article{
+            width: 25%;
+            background-color: burlywood;
+            float: left;
+        }
+        footer{
+            background-color: brown;
+            height: 100px;
+            float: left;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header >
+        <h1 style="color: #ff0000">Mi Empresa</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="">INICIO</a>
+        <a href="">NOSOTROS</a>
+        <a href="">GALERIA</a>
+        <a href="">CONTACTOS</a>
+    </nav>
+
+
+    <aside>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat voluptates eaque delectus similique
+        reiciendis. Ea inventore eaque, corporis harum, accusantium maxime exercitationem molestias id ad possimus ab
+        perspiciatis voluptates similique!
+    </aside>
+
+    <section id="principal">
+        <h1>Mi Contenido Principal </h1>
+    </section>
+    <article>
+        <ul>
+            <li>PHP</li>
+            <li>JAVA</li>
+            <li>NODE</li>
+            <li>C#</li>
+        </ul>
+    </article>
+
+    <footer>
+        &copy; Derechos Reservados
+    </footer>
 </body>
+
 </html>
